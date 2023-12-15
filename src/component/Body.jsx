@@ -1,12 +1,14 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Head from './Head'
+import Home from './Home.jsx'
+import About from './About.jsx'
 
 const Body = () => {
   return (
     <div>
       <Navbar/>
-      <Head/>
+      <Home/>
+      <About/>
     </div>
   )
 }
