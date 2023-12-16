@@ -2,6 +2,10 @@ import React from 'react'
 import Navbar from './Navbar'
 import Home from './Home.jsx'
 import About from './About.jsx'
+import MultipleItems from './MultipleItems.jsx'
+import Faq from './Faq.jsx'
+import NewsBlogs from './NewsBlogs.jsx'
+import SignUp from './SignUp.jsx'
 
 const Body = () => {
   return (
@@ -9,6 +13,10 @@ const Body = () => {
       <Navbar/>
       <Home/>
       <About/>
+      {/* <MultipleItems/> */}
+      <Faq/>
+      <NewsBlogs/>
+      <SignUp/>
     </div>
   )
 }

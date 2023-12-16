@@ -1,10 +1,13 @@
-/* #root {
-  max-width: 1280px;
+ #root {
+  max-width: 1400x;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
-
+.mySwiper{
+  display: flex;
+}
+/*
 .logo {
   height: 6em;
   padding: 1.5em;
