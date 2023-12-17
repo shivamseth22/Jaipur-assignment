@@ -1,7 +1,7 @@
 import React from 'react';
 
 const SignUp = () => (
-  <div className='bg-cyan-400 flex justify-center items-center p-6 lg:p-10'>
+  <div className='bg-teal-500 flex justify-center items-center p-6 lg:p-10'>
     <div className='text-white flex flex-col lg:flex-row justify-center items-center gap-6 lg:gap-8 '>
       <p className='text-lg lg:text-2xl font-bold text-center lg:text-left'>
         Sign Up for Your Free 1st Accounting Consultation

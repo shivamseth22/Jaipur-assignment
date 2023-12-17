@@ -15,13 +15,46 @@ const Faq = () => {
           alt=""
         />
       </div>
-      <div className="mt-4 md:w-[45%] lg:w-[55%] xl:w-[65%] md:ml-4">
+      <div className="  flex flex-col items-start mt-4 md:w-[45%] lg:w-[55%] xl:w-[65%] md:ml-4">
         <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">FAQs</h2>
         <h1 className="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold">Frequently Asked Questions</h1>
         <p className="text-sm md:text-base lg:text-lg xl:text-xl">
           Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
         </p>
 
+        <select
+          name="plan"
+          id="plan"
+          className="mt-2 p-2 text-sm md:text-base lg:text-lg xl:text-xl border border-gray-300"
+        >
+          <option value="none" disabled hidden>Select an Option</option>
+          <option value="free">Free</option>
+          <option value="starter">Starter</option>
+          <option value="professional">Professional</option>
+          <option value="corporate">Corporate</option>
+        </select>
+        <select
+          name="plan"
+          id="plan"
+          className="mt-2 p-2 text-sm md:text-base lg:text-lg xl:text-xl border border-gray-300"
+        >
+          <option value="none" disabled hidden>Select an Option</option>
+          <option value="free">Free</option>
+          <option value="starter">Starter</option>
+          <option value="professional">Professional</option>
+          <option value="corporate">Corporate</option>
+        </select>
+        <select
+          name="plan"
+          id="plan"
+          className="mt-2 p-2 text-sm md:text-base lg:text-lg xl:text-xl border border-gray-300"
+        >
+          <option value="none" disabled hidden>Select an Option</option>
+          <option value="free">Free</option>
+          <option value="starter">Starter</option>
+          <option value="professional">Professional</option>
+          <option value="corporate">Corporate</option>
+        </select>
         <select
           name="plan"
           id="plan"
